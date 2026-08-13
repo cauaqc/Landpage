@@ -1,0 +1,397 @@
+/* ===== LANDING PAGE — AF-900 PRO ===== */
+
+header .botao-primario {
+    padding: 8px 20px;
+    font-size: 14px;
+}
+
+/* ===== HERO ===== */
+.lp-heroi {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+    padding: 80px 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+    min-height: 520px;
+}
+
+.etiqueta-heroi {
+    display: inline-block;
+    background-color: var(--accent);
+    color: var(--white);
+    padding: 4px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 18px;
+}
+
+.botao-contorno-branco {
+    background-color: transparent;
+    color: var(--white);
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    padding: 12px 28px;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.botao-contorno-branco:hover {
+    border-color: var(--white);
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.lp-heroi-conteudo h1 {
+    font-size: 42px;
+    color: var(--white);
+    line-height: 1.25;
+    margin-bottom: 16px;
+}
+
+.lp-heroi-conteudo h1 span {
+    color: var(--accent);
+}
+
+.lp-heroi-descricao {
+    color: #aab4c8;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+    max-width: 480px;
+}
+
+.lp-heroi-cta {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 16px;
+    justify-content: start;
+    margin-bottom: 30px;
+}
+
+.lp-heroi-selo {
+    display: grid;
+    gap: 8px;
+}
+
+.lp-heroi-selo span {
+    color: #aab4c8;
+    font-size: 13px;
+}
+
+.lp-heroi-visual {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.lp-cartao-ia {
+    background-color: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    padding: 24px;
+    width: 340px;
+}
+
+/* ===== SEÇÃO GENÉRICA ===== */
+.lp-secao {
+    padding: 70px 0;
+}
+
+.lp-fundo-claro {
+    background-color: var(--light-bg);
+}
+
+.lp-etiqueta-secao {
+    display: inline-block;
+    background-color: rgba(249, 115, 22, 0.12);
+    color: var(--accent-dark);
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 14px;
+}
+
+.lp-lead {
+    color: var(--text-light);
+    font-size: 16px;
+    line-height: 1.7;
+    max-width: 700px;
+    margin: -8px 0 36px;
+}
+
+/* ===== BENEFÍCIOS ===== */
+.lp-grade-beneficios {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.lp-cartao-beneficio {
+    background-color: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 26px 22px;
+}
+
+.lp-icone-beneficio {
+    width: 44px;
+    height: 44px;
+    border-radius: 8px;
+    background-color: rgba(249, 115, 22, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.lp-icone-beneficio svg {
+    width: 22px;
+    height: 22px;
+}
+
+.lp-cartao-beneficio h3 {
+    font-size: 15px;
+    color: var(--primary);
+    margin-bottom: 8px;
+}
+
+.lp-cartao-beneficio p {
+    font-size: 13px;
+    color: var(--text-light);
+    line-height: 1.6;
+}
+
+/* ===== BANNER "COMO FUNCIONA" ===== */
+.banner-promo {
+    background: linear-gradient(135deg, var(--primary) 0%, #0d1520 100%);
+    padding: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+    margin: 0;
+}
+
+.etiqueta-banner {
+    display: inline-block;
+    background-color: rgba(249, 115, 22, 0.2);
+    color: var(--accent);
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 14px;
+}
+
+.conteudo-banner h2 {
+    font-size: 28px;
+    color: var(--white);
+    margin-bottom: 12px;
+    line-height: 1.3;
+}
+
+.conteudo-banner p {
+    color: #aab4c8;
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 26px;
+}
+
+.botao-primario-branco {
+    background-color: var(--white);
+    color: var(--primary);
+    border: none;
+    padding: 12px 28px;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.botao-primario-branco:hover {
+    background-color: #e8ecf0;
+}
+
+.imagem-banner {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.painel-scada {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px 24px;
+    width: 100%;
+    max-width: 420px;
+}
+
+.lp-fluxo {
+    max-width: 460px;
+}
+
+/* ===== RESULTADOS / DIFERENCIAIS ===== */
+.grade-diferenciais {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.item-diferencial {
+    background-color: var(--white);
+    border-radius: 8px;
+    padding: 28px 24px;
+    border: 1px solid var(--border);
+}
+
+.numero-diferencial {
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--accent);
+    margin-bottom: 10px;
+}
+
+.item-diferencial h3 {
+    font-size: 15px;
+    color: var(--primary);
+    margin-bottom: 10px;
+}
+
+.item-diferencial p {
+    font-size: 13px;
+    color: var(--text-light);
+    line-height: 1.6;
+}
+
+/* ===== DEPOIMENTO ===== */
+.lp-depoimento {
+    padding: 70px 0;
+    background-color: var(--primary);
+}
+
+.lp-depoimento-conteudo {
+    max-width: 760px;
+    text-align: center;
+}
+
+.lp-aspas {
+    margin-bottom: 16px;
+}
+
+.lp-frase-depoimento {
+    color: var(--white);
+    font-size: 22px;
+    line-height: 1.5;
+    font-style: italic;
+    margin-bottom: 28px;
+}
+
+.lp-autor-depoimento {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 14px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.lp-avatar-depoimento {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background-color: var(--accent);
+    color: var(--white);
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lp-nome-depoimento {
+    color: var(--white);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.lp-cargo-depoimento {
+    color: #aab4c8;
+    font-size: 13px;
+}
+
+/* ===== CTA FINAL + FORMULÁRIO ===== */
+.lp-cta-final {
+    padding: 70px 0;
+}
+
+.lp-cta-grade {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: start;
+}
+
+.lp-cta-texto h2 {
+    font-size: 28px;
+    color: var(--primary);
+    line-height: 1.3;
+    margin-bottom: 16px;
+}
+
+.lp-cta-texto p {
+    color: var(--text-light);
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 22px;
+}
+
+.lp-cta-selo {
+    display: grid;
+    gap: 8px;
+}
+
+.lp-cta-selo span {
+    color: var(--primary);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.lp-form-contato {
+    background-color: var(--light-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 28px;
+}
+
+.lp-botao-form {
+    width: 100%;
+    text-align: center;
+    margin-top: 6px;
+}
+
+/* ===== RESPONSIVO ===== */
+@media (max-width: 900px) {
+    .lp-heroi,
+    .lp-cta-grade,
+    .banner-promo {
+        grid-template-columns: 1fr;
+    }
+
+    .lp-grade-beneficios,
+    .grade-diferenciais {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
